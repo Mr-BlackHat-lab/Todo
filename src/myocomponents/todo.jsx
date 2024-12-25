@@ -11,6 +11,11 @@ export default function Todos(props) {
           <input type="text" id="Input-box" placeholder="Add you task" />
           <button>Add</button>
         </div>
+        <ul id="list-container">
+            <li className="checked">Task 1</li>
+            <li>Task 2</li>
+            <li>Task 3</li>
+        </ul>
       </div>
     </div>
   );
